@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 2em;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  line-height: 0;
+  color: #5F7161;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #5F7161;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.0rem;
+  color: #6D8B74;
+}
+
+p {
+  font-size: 20px;
+  line-height: 2;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #6D8B74;
+  border-width: 8px;
+  width: 4%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.top-container {
+  background-color: #EFEAD8;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #EFEAD8;
+  padding-bottom: 100px;
+}
+
+.bottom-container {
+  background-color: #6D8B74;
+  padding-bottom: 50px;
+}
+
+.title {
+  padding-top: 50px;
+}
+
+.description {
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+
+.profile_img {
+  margin-top: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 150px auto;
+  text-align: left;
+}
+
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #6D8B74;
+  text-decoration: none;
+  color: #D0C9C0;
+  transition: all 0.5s
+}
+
+.btn:hover {
+  background-color: #5F7161;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  top: 20px;
+  font-size: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  color: #D0C9C0;
+  transition: all 0.5s;
+}
+
+.footer-link:hover {
+  color: black;
+}
+
+.topCloud {
+  position: absolute;
+  right: 500px;
+  top: 50px;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 500px;
+  bottom: 500px;
+}
+
+.mountain {
+  padding-top: 100px;
+  width: 800px;
+}
+
+.java_img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.cpp_img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.trade-mark {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  font-size: 15px;
+  top: 40px;
+}
